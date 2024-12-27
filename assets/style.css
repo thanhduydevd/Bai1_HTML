@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Comfortaa:wght@300..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika+Negative:wght@300..700&display=swap');
+
+:root{
+    --font-primary : "Be Vietnam Pro", sans-serif;
+    --color-primary: #E2E2E2;
+    --color-background: #F1F1F1;
+    --color-text: #333333;
+}
+
+*{
+    font-family: var(--font-primary);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header .container{
+    display: flex;
+    padding: 20px 0;
+    gap: 30px;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.header__logo{
+    display: flex;
+    width: 200px;
+    height: 60px;
+    background-color: #E2E2E2;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.header__button{
+    display: flex;
+    width: 102px;
+    height: 36px;
+    background-color: #E2E2E2;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.header__menu{
+    padding: 4px 0;
+    flex: 1;
+    display: flex;
+    background-color: #E2E2E2;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.section1{
+    background-color: var(--color-background);
+}
+
+.section1 .container{
+    display: flex;
+    padding: 80px 0 80px 0;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.section1__content{
+    display: flex;
+    height: 267px;
+    flex: 1;
+    background-color: var(--color-primary);
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1__image{
+    display: flex;
+    height: 520px;
+    flex: 1;
+    background-color: var(--color-primary);
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2{
+    margin-bottom: 80px;
+}
+
+.section2__title{
+    display: flex;
+    width: 600px;
+    height: 80px;
+    background-color: var(--color-primary);
+    margin: 80px auto 40px auto;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.section2__list{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: (33.3333% - 20px);
+}
+
+.section2__list .section2__list__item{
+    display: flex;
+    font-size: 20px;
+    width: 380px;
+    height: 420px;
+    background-color: var(--color-primary);
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.section3{
+    display: flex;
+    background-color: var(--color-background);
+}
+
+.section3__title{
+    display: flex;
+    width: 600px;
+    height: 80px;
+    font-size: 20px;
+    background-color: var(--color-primary);
+    margin: 80px auto 40px auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.section3__list{
+    display: flex;
+    margin: 40px auto 80px auto;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.section3__list .section3__list__item{
+    display: flex;
+    font-size: 20px;
+    width: 216px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: var(--color-primary);
+    justify-content: center;
+    align-items: center;
+}
+
+.section4{
+    margin-bottom: 80px;
+}
+
+.section4__title{
+    display: flex;
+    font-size: 20px;
+    width: 600px;
+    height: 80px;
+    background-color: var(--color-primary);
+    margin: 80px auto 40px auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.section4__list{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.section4__list .section4__list__item{
+    display: flex;
+    font-size: 20px;
+    background-color: var(--color-primary);
+    width: 277.5px;
+    height: 300px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    font-size: 20px;
+    width: auto;
+    height: 72px;
+    background-color: #D9D9D9;
+    justify-content: center;
+    align-items: center;
+}
